@@ -1,6 +1,7 @@
 html{
   align-content:flex-start;
 }
+
 h1{
     display: flex;
    flex-direction: center; 
@@ -30,124 +31,124 @@ body{
     justify-content: center;
     align-content: flex-start;
     color: #f9e4b7;
-  }
+}
   
-  body1{
-    display: flex;
-    flex-direction: align-self;
-    background-color: #b19cd9;
-    color:rgb(192, 212, 218);
-    height: 110vh;
-    align-items: center;
-    justify-content: space-between;
-    align-content: center;
-    font-size:100px;
-  }
+body1{
+  display: flex;
+  flex-direction: align-self;
+  background-color: #b19cd9;
+  color:rgb(192, 212, 218);
+  height: 110vh;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+  font-size:100px;
+}
+
+header1{
+  display: flex;
+  flex-direction: align-self;
+  color:rgb(192, 212, 218);
+  font-size: 100px;
+  height: 2vh;
+  align-items: center;
+  justify-content: space-between;   
+
+
+header2{
+  display: flex;
+  flex-direction: align-self;
+  color:rgb(192, 212, 218);
+  font-size: 85px;
+  height: 2vh;
+  align-items: center;
+  justify-content: space-between;   
+
+.text{
+  color: #f9e4b7;
+  font-size: 24px;
+  padding: 20px;
   
-  header1{
-    display: flex;
-    flex-direction: align-self;
-    color:rgb(192, 212, 218);
-    font-size: 100px;
-    height: 2vh;
-    align-items: center;
-    justify-content: space-between;   
+}
+
+p1{
+  display: flex;
+  flex-direction: flex-start;
+  align-items:flex-start;
+  justify-content: flex-start;
+  color: #f9e4b7;
+  font-size: 16px;
+  padding: 20px; 
+  text-align: justify;
+  font-style:oblique;
+  font-weight: 700;
+}
+
+p2{
+  display: flex;
+  flex-direction: flex-start;
+  height: 2vh;
+  align-items: center;
+  justify-content: center;
+  color: #f9e4b7;
+  font-size: 16px;
+  padding: 20px; 
+  text-align: justify;
+  font-style:oblique;
+}
+
+p3{
+  display: flex;
+  flex-direction: flex-start;
+  height: 14vh;
+  align-items: center;
+  justify-content: center;
+  color: #f9e4b7;
+  font-size: 16px;
+  padding: 20px; 
+  text-align: justify;
+  font-style:oblique;
+}
 
 
-    header2{
-      display: flex;
-      flex-direction: align-self;
-      color:rgb(192, 212, 218);
-      font-size: 85px;
-      height: 2vh;
-      align-items: center;
-      justify-content: space-between;   
+p4{
+  display: flex;
+  flex-direction: flex-start;
+  height: 6vh;
+  align-items: center;
+  justify-content: center;
+  color: #f9e4b7;
+  font-size: 16px;
+  padding: 20px; 
+  text-align: justify;
+  font-style:oblique;
+}
 
-  .text{
-    color: #f9e4b7;
-    font-size: 24px;
-    padding: 20px;
-    
-  }
+p5{
+  display: flex;
+  flex-direction: flex-start;
+  height: 20vh;
+  align-items: center;
+  justify-content: center;
+  color: #f9e4b7;
+  font-size: 16px;
+  padding: 20px; 
+  text-align: justify;
+  font-style:oblique;
+}
 
-  p1{
-    display: flex;
-    flex-direction: flex-start;
-    align-items:flex-start;
-    justify-content: flex-start;
-    color: #f9e4b7;
-    font-size: 16px;
-    padding: 20px; 
-    text-align: justify;
-    font-style:oblique;
-    font-weight: 700;
-  }
-  
-  p2{
-    display: flex;
-    flex-direction: flex-start;
-    height: 2vh;
-    align-items: center;
-    justify-content: center;
-    color: #f9e4b7;
-    font-size: 16px;
-    padding: 20px; 
-    text-align: justify;
-    font-style:oblique;
-  }
-
-  p3{
-    display: flex;
-    flex-direction: flex-start;
-    height: 14vh;
-    align-items: center;
-    justify-content: center;
-    color: #f9e4b7;
-    font-size: 16px;
-    padding: 20px; 
-    text-align: justify;
-    font-style:oblique;
-  }
-
-
-  p4{
-    display: flex;
-    flex-direction: flex-start;
-    height: 6vh;
-    align-items: center;
-    justify-content: center;
-    color: #f9e4b7;
-    font-size: 16px;
-    padding: 20px; 
-    text-align: justify;
-    font-style:oblique;
-  }
-
-  p5{
-    display: flex;
-    flex-direction: flex-start;
-    height: 20vh;
-    align-items: center;
-    justify-content: center;
-    color: #f9e4b7;
-    font-size: 16px;
-    padding: 20px; 
-    text-align: justify;
-    font-style:oblique;
-  }
-
-  p6{
-    display: flex;
-    flex-direction: flex-start;
-    height: 15vh;
-    align-items:flex-start;
-    justify-content: flex-start;
-    color: #f9e4b7;
-    font-size: 16px;
-    padding: 20px; 
-    text-align: justify;
-    font-style:oblique;
-  }
+p6{
+  display: flex;
+  flex-direction: flex-start;
+  height: 15vh;
+  align-items:flex-start;
+  justify-content: flex-start;
+  color: #f9e4b7;
+  font-size: 16px;
+  padding: 20px; 
+  text-align: justify;
+  font-style:oblique;
+}
 
 
 
